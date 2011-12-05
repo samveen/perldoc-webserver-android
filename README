@@ -1,0 +1,17 @@
+The perldoc-webserver-android is a very basic webserver written in perl which
+implements just the GET method of the HTTP 1.0 protocol and that too in a very
+incomplete manner.
+
+It is geared for one task and one task only: serve out perldoc pages as
+downloaded from the perldoc website (http://perldoc.perl.org).
+
+The genesis of the project was when I discovered that Opera mobile on my Toshiba
+AC100 would not open perldoc pages from local storage. That is urls of the form
+'file:///...' would not open in Opera, while they opened just fine on the
+build-in android browser. So, spending an evening with Terminal Emulator, Opera
+mobile, netcat, vim and perl from SL4A on a Toshiba AC100 travelling in a train
+from Bangalore to Hyderabad for a wedding, I wrote up this webserver to allow me
+to view perldoc locally.
+
+This project is release under the HIRE ME/PAY ME License, the text for which is
+available in the LICENSE file.
